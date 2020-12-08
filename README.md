@@ -2,7 +2,8 @@
 
 Sources: https://data-flair.training/blogs/
 
-## Objective: Utilizing computer vision methods in Python, we are going distinguish street path lines in which independent cars must run. This will be a basic portion of independent cars, as the self-driving cars ought to not cross it’s path and ought to not go in inverse path to maintain a strategic distance from accidents.
+## Objective: 
+Utilizing computer vision methods in Python, we are going distinguish street path lines in which independent cars must run. This will be a basic portion of independent cars, as the self-driving cars ought to not cross it’s path and ought to not go in inverse path to maintain a strategic distance from accidents.
 
 To identify white markings within the lane, to begin with, we ought to veil the rest portion of the outline. We do this utilizing outline concealing. The outline is nothing but a NumPy cluster of picture pixel values. To cover the unnecessary pixel of the outline, we simply overhaul those pixel values to within the NumPy array. After making we got to identify path lines. The method utilized to distinguish numerical shapes like this can be called Hough Change. Hough change can identify shapes like rectangles, circles, triangles, and lines.
 
